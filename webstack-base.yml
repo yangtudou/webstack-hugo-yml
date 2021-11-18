@@ -1,0 +1,30 @@
+---
+
+##################
+# 导航的目录结构 #
+##################
+
+- taxonomy: #网站根目录1
+  icon: #目录logo1
+  links: 
+    - title: #网站名字
+      logo: #网站logo
+      url: #网站链接
+      description: #网站描述
+
+- taxonomy: #网站根目录2
+  icon: #目录logo2
+  list: 
+    - term: #子目录名字1
+      links:
+        - title: #网站名字
+          logo: #网站logo
+          url: #网站链接
+          description: #网站描述
+
+    - term: #子目录名字2
+      links:
+        - title: 
+          logo: 
+          url: 
+          description: 
