@@ -17,7 +17,7 @@
 
 #需要的模块 glob、ruamel、yaml
 import glob
-
+#没有子目录
 taxonomy = [ ]
 websitpages = [ ]
 for base in glob.glob('./websitepages/*.txt', recursive=True):
@@ -27,16 +27,31 @@ for base in glob.glob('./websitepages/*.txt', recursive=True):
         file = open(f, encoding='utf-8')
         webs = [ ]
         for w in file:
-            ws = {'title': w.split()[0], 'logo': w.split()[1], 'url': w.split()[2], 'description': w.split()[3]}
-            webs.append(ws)
+            webs.append({'title': w.split()[0], 'logo': w.split()[1], 'url': w.split()[2], 'description': w.split()[3]})
         websitpages.append(webs)
+#有子目录
+taxonomy_with_term = [ ]
+websitpages_with_term = [ ]
+term = [ ]
+for i in glob.glob('./websitepages/*/', recursive=True):
+    taxonomy_with_term.append(i.strip('./websitepages | txt').split('/'))
+for base in glob.glob('./websitepages/*/*.txt', recursive=True):
+    term.append((base.strip('./websitepages/ | txt').split('/'))[1])
+    path = [base]
+    for f in path:
+        file = open(f, encoding='utf-8')
+        for w in file:
+            webs.append({'名字': w.split()[0]})
+        websitpages_with_term.append(webs)
+
 
 ggg = [ ]
 
 for i in range(len(taxonomy)):
     x = {'taxonomy': ''.join(taxonomy[i]), 'icon': 'icon', 'link': websitpages[i]}
     ggg.append(x)
-print(websitpages)
+
+
 # from ruamel import yaml
 # with open('./test.yaml', 'w', encoding='utf-8') as f:
 #     yaml.dump(ggg, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)
