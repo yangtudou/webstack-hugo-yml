@@ -48,7 +48,7 @@ for base in glob.glob('./websitepages/*/*.txt', recursive=True):
 ggg = [ ]
 
 for i in range(len(taxonomy)):
-    x = {'taxonomy': ''.join(taxonomy[i]), 'icon': 'icon', 'link': websitpages[i]}
+    x = {'taxonomy': ''.join(taxonomy[i]), 'icon': 'icon', 'links': websitpages[i]}
     ggg.append(x)
 
 
