@@ -23,7 +23,7 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v2.3.1
         with:
-          python-version: 3.9
+          python-version: 3.8
           cache: 'pip'
         # 安装脚本所需的依赖
       - name: 'Install requests'

@@ -3,8 +3,8 @@ from ruamel import yaml
 #没有子目录
 taxonomy = [ ]
 websitpages = [ ]
-for base in glob.glob('./*.txt', recursive=True):
-    taxonomy.append(base.strip('./ | txt').split('/'))
+for base in glob.glob('./websitepages/*.txt', recursive=True):
+    taxonomy.append(base.strip('./websitepages | txt').split('/'))
     path = [base]
     for f in path:
         file = open(f, encoding='utf-8')
@@ -21,10 +21,10 @@ for i in range(len(taxonomy)):
 taxonomy_with_term = [ ]
 websitpages_with_term = [ ]
 term = [ ]
-for i in glob.glob('./*/', recursive=True):
-    taxonomy_with_term.append(i.strip('./ | txt').split('/'))
-for base in glob.glob('./*/*.txt', recursive=True):
-    term.append((base.strip('./ | txt').split('/'))[1])
+for i in glob.glob('./websitepages/*/', recursive=True):
+    taxonomy_with_term.append(i.strip('./websitepages | txt').split('/'))
+for base in glob.glob('./websitepages/*/*.txt', recursive=True):
+    term.append((base.strip('./websitepages | txt').split('/'))[1])
     path = [base]
     for f in path:
         file = open(f, encoding='utf-8')
