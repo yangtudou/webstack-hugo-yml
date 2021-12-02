@@ -1,4 +1,4 @@
-name: Python application
+name: yaml_auto
 
 on: [push]
 
@@ -25,7 +25,7 @@ jobs:
         git config --global user.email 676683117@qq.com
         git config --global user.name yangtudou
         git add .
-        git commit -m "update" -a
+        git commit -m "yaml_auto" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
