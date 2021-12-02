@@ -1,46 +1,29 @@
-# name属性用来指定这个工作流的名字
-name: Yaml Auto
+name: Python application
 
-# 这个部分用来指定能够触发工作流执行的事件
-on:
-  # 当对分支main进行push操作的时候，这个工作流就被触发了
-  push:
-    branches: main
+on: [push]
 
-
-
-# 工作流是由一个或多个的jobs构成的，在jobs里来说明要交给GitHub aciton执行的任务
 jobs:
-  # 这个jobs中的一个任务，名字叫build(随便怎么取)
   build:
-    # 用来指定这个任务在什么操作系统上跑(服务器是GitHub免费提供的)
+
     runs-on: ubuntu-latest
+
     steps:
-    # 首先copy git仓库到虚拟机上
-      - name: Checkout
-        uses: actions/checkout@v2
-        # 安装初始化python
-      - name: 'Set up Python'
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.8
-        # 安装脚本所需的依赖
-      - name: 'Install requests'
-        run: pip install ruamel.yaml
-        # 运行脚本
-      - name: 'Working'
-        run: python ./webstack_yaml_linux.py
-      - name: 'Create local changes'
-        run: |
-          cd yaml
-      - name: 'Commit files'
-        run: |
-          git config --global user.email 676683117@qq.com
-          git config --global user.name yangtudou
-          git add test.yml
-          git commit -m "update" -a
-      - name: 'push changes'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branches: yaml_auto
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Update paper list
+      run: |
+        cd python_auto
+        python webstack_yaml_linux.py
+    - name: commit
+      run: |
+        git config --global user.email 676683117@qq.com
+        git config --global user.name yangtudou
+        git add .
+        git commit -m "update" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
