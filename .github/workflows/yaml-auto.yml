@@ -26,7 +26,7 @@ jobs:
           python-version: 3.8
         # 安装脚本所需的依赖
       - name: 'Install requests'
-        run: pip install glob && \ pip install ruamel.yaml && \ pip install yaml
+        run: pip install ruamel.yaml && \ pip install yaml
         # 运行脚本
       - name: 'Working'
         run: python ./webstack_yaml_linux.py
