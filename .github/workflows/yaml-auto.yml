@@ -6,16 +6,16 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     # 首先copy git仓库到虚拟机上
       - name: Checkout
         uses: actions/checkout@v2.4.0
-
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2.3.1
+
         with:
-          python-version: '3.9'
+          python-version: '3.8'
           cache: 'pip'
         - run: pip install glob
         - run: pip install yaml
