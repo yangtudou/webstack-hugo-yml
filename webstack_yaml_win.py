@@ -1,5 +1,5 @@
 import glob
-
+from ruamel import yaml
 #没有子目录
 taxonomy = [ ]
 websitpages = [ ]
@@ -45,7 +45,7 @@ for i in range(len(taxonomy_with_term)):
 ggg = taxonomys + taxonomy_with_terms
 
 
-from ruamel import yaml
+
 with open('./test.yml', 'w', encoding='utf-8') as f:
     yaml.dump(ggg, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)
 
