@@ -30,3 +30,8 @@ jobs:
         # 运行脚本
       - name: 'Working'
         run: python ./webstack_yaml_linux.py
+      - name: 'push changes'
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branches: [ main ]
