@@ -16,10 +16,10 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '3.9'
-      - name: Install requests
-        run: pip install glob
-        run: pip install yaml
-        run: pip install ruamel.yaml
+          cache: 'pip'
+        - run: pip install glob
+        - run: pip install yaml
+        - run: pip install ruamel.yaml
         # 运行脚本
       - name: Working
         run: python ./webstack_yaml_win.py
