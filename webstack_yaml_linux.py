@@ -46,6 +46,6 @@ ggg = taxonomys + taxonomy_with_terms
 
 
 
-with open('./test.yml', 'w', encoding='utf-8') as f:
+with open('./yaml/test.yml', 'w', encoding='utf-8') as f:
     yaml.dump(ggg, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)
 
