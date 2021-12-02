@@ -5,7 +5,7 @@ name: Yaml Auto
 on:
   # 当对分支main进行push操作的时候，这个工作流就被触发了
   push:
-    branches: [ main ]
+    branches: main
 
 
 
@@ -33,5 +33,4 @@ jobs:
       - name: 'push changes'
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branches: [ main ]
+          branches: main
