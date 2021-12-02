@@ -26,10 +26,7 @@ jobs:
           python-version: 3.8
         # 安装脚本所需的依赖
       - name: 'Install requests'
-        run: pip install requests
+        run: pip install glob && \ pip install ruamel.yaml && \ pip install yaml
         # 运行脚本
       - name: 'Working'
-        env:	#添加环境变量
-          SCKEY: ${{ secrets.SCKEY }}
-          SKEY: ${{ secrets.SKEY }}
         run: python ./webstack_yaml_linux.py
