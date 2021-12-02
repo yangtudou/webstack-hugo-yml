@@ -33,4 +33,5 @@ jobs:
       - name: 'push changes'
         uses: ad-m/github-push-action@v0.6.0
         with:
-          branches: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branches: yaml_auto
