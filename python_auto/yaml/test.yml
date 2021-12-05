@@ -2,7 +2,7 @@
   - taxonomy: 其他导航
     icon: icon
     links:
-      - title: 要求人导航
+      - title: 不要求人导航
         logo: assets/images/logos/bqrdh.png
         url: https://video.bqrdh.com/
         description: 不错的导航，视频音频。
