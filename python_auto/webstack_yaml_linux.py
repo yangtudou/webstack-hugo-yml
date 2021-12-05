@@ -87,5 +87,5 @@ yaml.indent(mapping=2, sequence=4, offset=2)
 yaml.top_level_colon_align = True
 yaml.default_flow_style = False
 yaml.explicit_start = True
-with open('./yaml/test.yml', 'w', encoding='utf-8') as f:
+with open('./test.yml', 'w', encoding='utf-8') as f:
     yaml.dump(ggg, f)
