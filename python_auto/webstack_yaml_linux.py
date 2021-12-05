@@ -1,5 +1,5 @@
 import glob
-from ruamel import yaml
+from ruamel.yaml import YAML
 #没有子目录
 taxonomy = [ ]
 websitpages = [ ]
@@ -45,7 +45,10 @@ for i in range(len(taxonomy_with_term)):
 ggg = taxonomys + taxonomy_with_terms
 
 
-
+yaml = YAML()
+yaml.indent(mapping=2, sequence=4, offset=2)
+yaml.top_level_colon_align = True
+yaml.default_flow_style = False
+yaml.explicit_start = True
 with open('./yaml/test.yml', 'w', encoding='utf-8') as f:
-    yaml.dump(ggg, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)
-
+    yaml.dump(ggg, f)
