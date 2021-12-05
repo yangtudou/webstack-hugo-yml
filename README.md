@@ -15,11 +15,14 @@
 直接 fork 这个项目，把自己要用的网站以上面的方式打包上传就行，新生成的配置文件**webstack.yaml**在根目录。
 ## 第二种办法
 在 Windows 环境下，下载并使用已经做好的简易软件。生成的文件在同级目录，最外层目录可以自行选择，不一定要叫 `websitepages`
-### 第三种办法
-自己搭建 python 环境，安装模块 `ruamel.yaml` ，我提供了 linux（mac os） 和 Windows 的源代码，
+## 第三种办法
+自己搭建 python 环境，安装模块 `ruamel.yaml` ，我提供了 linux（mac os） 和 Windows 的源代码，自行解决。
 
 # 已完成功能
 
 ✅ 目前已实现通过 GitHub action 来实现上传改动网页就能自动生成 yaml 配置文件。不用自己在本地搭建 python 环境。
 
-# 未完成
+# 未完成功能
+
+- 不能更改根目录的 `icon` 项目，目前需要手动调节。
+- 不能自动添加网页logo，需要手动添加 png 文件。
