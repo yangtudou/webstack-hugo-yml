@@ -15,7 +15,7 @@ jobs:
         python-version: 3.7
     - name: Install requests
       run: pip install ruamel.yaml
-      
+
     - name: Update paper list
       run: |
         cd python_auto
