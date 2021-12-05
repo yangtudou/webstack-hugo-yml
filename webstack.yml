@@ -17,6 +17,10 @@
   - taxonomy: 常用
     icon: icon
     links:
+      - title: B站
+        logo: assets/images/logos/bilibili.png
+        url: https://www.bilibili.com/
+        description: B站，一个学习网站。
       - title: Pinterest
         logo: assets/images/logos/pinterest.png
         url: https://www.pinterest.com/
@@ -25,10 +29,6 @@
         logo: assets/images/logos/behance.png
         url: https://behance.net/
         description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-      - title: B站
-        logo: assets/images/logos/bilibili.png
-        url: https://www.bilibili.com/
-        description: B站，一个学习网站。
       - title: Github
         logo: assets/images/logos/github.png
         url: https://github.com/
