@@ -1,2 +1,0 @@
-创可贴        assets/images/logos/chuangkit.png               https://www.chuangkit.com/designtools/designindex        平面设计，快速出pdf等
-包小盒        assets/images/logos/baoxiaohe.png               https://www.baoxiaohe.com/                               包装设计，快速贴图
