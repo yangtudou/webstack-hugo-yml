@@ -3,3 +3,4 @@ Pinterest        assets/images/logos/pinterest.png               https://www.pin
 Behance          assets/images/logos/behance.png                 https://behance.net/               Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
 Github           assets/images/logos/github.png                  https://github.com/                全球最大的同性交友网站！！！
 谷歌翻译         assets/images/logos/translate_google.png        https://translate.google.cn/       翻译
+测试            assets/images/logos/translate_google.png        https://translate.google.cn/       测试
