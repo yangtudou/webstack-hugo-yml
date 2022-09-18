@@ -2,6 +2,26 @@
   - taxonomy: 常用
     icon: icon
     links:
+      - title: 土豆仓库
+        logo: assets/images/favicon.png
+        url: https://www.dsmyyy.tk:8887
+        description: 包含一些常用软件之类的。
+      - title: 土豆博客
+        logo: assets/images/favicon.png
+        url: https://www.dsmyyy.tk:8443
+        description: 目前部署在家里的黑群上。
+      - title: docker
+        logo: hub
+        url: assets/images/favicon.png
+        description: https://hub.docker.com
+      - title: Github
+        logo: assets/images/favicon.png
+        url: https://github.com/
+        description: 全球最大的同性交友网站。
+      - title: Medium
+        logo: assets/images/logos/medium.png
+        url: https://medium.com/
+        description: 高质量设计文章
       - title: B站
         logo: assets/images/logos/bilibili.png
         url: https://www.bilibili.com/
@@ -14,18 +34,10 @@
         logo: assets/images/logos/behance.png
         url: https://behance.net/
         description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-      - title: Github
-        logo: assets/images/logos/github.png
-        url: https://github.com/
-        description: 全球最大的同性交友网站！！！
-      - title: 谷歌翻译
-        logo: assets/images/logos/translate_google.png
-        url: https://translate.google.cn/
-        description: 翻译
-      - title: 测试
-        logo: assets/images/logos/translate_google.png
-        url: https://translate.google.cn/
-        description: 测试
+      - title: Youtube
+        logo: assets/images/logos/youtube.png
+        url: https://www.youtube.com/
+        description: 全球最大的学习分享平台
   - taxonomy: 其他导航
     icon: icon
     links:
@@ -44,51 +56,25 @@
   - taxonomy: 设计
     icon: icon
     list:
-      - term: 灵感来源
+      - term: 工业设计
         links:
-          - title: Pinterest
-            logo: assets/images/logos/pinterest.png
-            url: https://www.pinterest.com/
-            description: 全球美图收藏采集站
-          - title: Behance
-            logo: assets/images/logos/behance.png
-            url: https://behance.net/
-            description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-          - title: 包装设计集合
-            logo: assets/images/logos/packagingoftheworld.png
-            url: https://packagingoftheworld.com/
-            description: 创意包装设计画廊
-          - title: creativeboom
-            logo: assets/images/logos/creativeboom.png
-            url: https://www.creativeboom.com/
-            description: 创造力
-          - title: inspofinds
-            logo: assets/images/logos/inspofinds.png
-            url: https://inspofinds.com/
-            description: inspofinds暂时还不知道怎么形容
-          - title: 站酷
-            logo: assets/images/logos/zcool.png
-            url: https://www.zcool.com.cn/home
-            description: 站酷你懂的
-          - title: 古田路9号
-            logo: assets/images/logos/gtn9.png
-            url: https://www.gtn9.com/index.aspx
-            description: 平面设计相关
-          - title: 花瓣网
-            logo: assets/images/logos/huaban.png
-            url: https://huaban.com/
-            description: 号称国内的Pinterest
-          - title: Dribbble
-            logo: assets/images/logos/dribbble.png
-            url: https://dribbble.com/
-            description: 获取灵感必备
-      - term: 辅助工具
+          - title: 普象网
+            logo: assets/images/favicon.png
+            url: https://www.puxiang.com
+            description: 工业设计分享平台
+      - term: 3D设计
         links:
-          - title: 创可贴
-            logo: assets/images/logos/chuangkit.png
-            url: https://www.chuangkit.com/designtools/designindex
-            description: 平面设计，快速出pdf等
-          - title: 包小盒
-            logo: assets/images/logos/baoxiaohe.png
-            url: https://www.baoxiaohe.com/
-            description: 包装设计，快速贴图
+          - title: 材质贴图
+            logo: assets/images/favicon.png
+            url: https://www.textures.com/library
+            description: 材质贴图库
+          - title: blender
+            logo: assets/images/logos/blender.png
+            url: https://www.blender.org
+            description: 一款开源的的
+      - term: 包装设计
+        links:
+          - title: 世界创意包装
+            logo: assets/images/favicon.png
+            url: https://packagingoftheworld.com
+            description: 世界创意包装集合
