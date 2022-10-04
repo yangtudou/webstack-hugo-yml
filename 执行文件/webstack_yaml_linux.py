@@ -13,7 +13,6 @@ with open('./执行文件/TaxonomyInfo.json','r',encoding='utf8')as fp:
 # 常用
 TaxonomyInfo[0]["links"] = [
     土豆仓库,
-    土豆博客,
     Github,
     DockerHub,
     Pinterest,
