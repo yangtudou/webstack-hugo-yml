@@ -6,7 +6,7 @@ from ruamel.yaml import YAML
 yaml = YAML()
 from WebSiteInfo import *
 
-with open('TaxonomyInfo.json','r',encoding='utf8')as fp:
+with open('./执行文件/TaxonomyInfo.json','r',encoding='utf8')as fp:
     TaxonomyInfo = json.load(fp)
 
 
@@ -66,5 +66,5 @@ yaml.indent(mapping=2, sequence=4, offset=2)
 yaml.top_level_colon_align = True
 yaml.default_flow_style = False
 yaml.explicit_start = True
-with open('../webstack.yml', 'w', encoding='utf-8') as f:
+with open('./yaml_update/webstack.yml', 'w', encoding='utf-8') as f:
     yaml.dump(TaxonomyInfo, f)
