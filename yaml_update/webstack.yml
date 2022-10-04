@@ -6,10 +6,6 @@
         logo: assets/images/favicon.png
         url: https://www.dsmyyy.tk:8887
         description: 包含一些常用的软件什么的。
-      - title: 土豆博客
-        logo: assets/images/favicon.png
-        url: https://www.dsmyyy.tk:8443
-        description: 目前部署在家里的黑群上。
       - title: Github
         logo: assets/images/favicon.png
         url: https://github.com
