@@ -17,9 +17,7 @@ jobs:
       run: pip install ruamel.yaml
 
     - name: Update paper list
-      run: |
-        cd python_auto
-        python webstack_yaml_linux.py
+      run: python webstack_yaml_linux.py
     - name: commit
       run: |
         git config --global user.email github-actions[bot]@users.noreply.github.com

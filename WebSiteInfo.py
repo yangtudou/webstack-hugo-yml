@@ -1,0 +1,146 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+
+土豆仓库 = {
+    "title": "土豆仓库",
+    "logo": "assets/images/favicon.png",
+    "url": "https://www.dsmyyy.tk:8887",
+    "description": "包含一些常用的软件什么的。"
+}
+土豆博客 = {
+    "title": "土豆博客",
+    "logo": "assets/images/favicon.png",
+    "url": "https://www.dsmyyy.tk:8443",
+    "description": "目前部署在家里的黑群上。"
+}
+Github = {
+    "title": "Github",
+    "logo": "assets/images/favicon.png",
+    "url": "https://github.com",
+    "description": "全球最大的同性交友网站。"
+}
+DockerHub = {
+    "title": "docker hub",
+    "logo": "assets/images/favicon.png",
+    "url": "https://hub.docker.com",
+    "description": "docker 镜像站"
+}
+Pinterest = {
+    "title": "Pinterest",
+    "logo": "assets/images/logos/pinterest.png",
+    "url": "https://www.pinterest.com/",
+    "description": "全球美图收藏采集站"
+}
+Behance = {
+    "title": "Behance",
+    "logo": "assets/images/logos/behance.png",
+    "url": "https://behance.net/",
+    "description": "Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。"
+}
+Dribbble = {
+    "title": "Dribbble",
+    "logo": "assets/images/logos/dribbble.png",
+    "url": "https://dribbble.com/",
+    "description": "全球UI设计师作品分享平台。"
+}
+Medium = {
+    "title": "Medium",
+    "logo": "assets/images/logos/medium.png",
+    "url": "https://medium.com/",
+    "description": "高质量设计文章"
+}
+Youtube = {
+    "title": "Youtube",
+    "logo": "assets/images/logos/youtube.png",
+    "url": "https://www.youtube.com/",
+    "description": "全球最大的学习分享平台"
+}
+
+GXNAS = {
+    "title": "GXNAS",
+    "logo": "assets/images/favicon.png",
+    "url": "https://wp.gxnas.com",
+    "description": "NAS 和虚拟机相关"
+}
+P3terxZone = {
+    "title": "P3TERX ZONE",
+    "logo": "assets/images/favicon.png",
+    "url": "https://p3terx.com",
+    "description": "挺好一博客"
+}
+reuixiy = {
+    "title": "reuixiy",
+    "logo": "assets/images/favicon.png",
+    "url": "https://io-oi.me",
+    "description": "给我很多启发的博客，很哲学。"
+}
+三言字体 = {
+    "title": "三言字体",
+    "logo": "assets/images/favicon.png",
+    "url": "https://3type.cn/index.html",
+    "description": "字体设计，有很多有趣的字体。"
+}
+
+
+
+锯齿一号 = {
+    "title": "锯齿一号",
+    "logo": "assets/images/favicon.png",
+    "url": "http://www.gfxcamp.com",
+    "description": "很多有用的资源"
+}
+果核剥壳 = {
+    "title": "果核剥壳",
+    "logo": "assets/images/favicon.png",
+    "url": "https://www.ghxi.com",
+    "description": "各种软件"
+}
+uu_win = {
+    "title": "uu-win",
+    "logo": "assets/images/favicon.png",
+    "url": "https://uup.rg-adguard.net",
+    "description": "Windows 镜像"
+}
+
+
+
+IP可用性检测工具 = {
+    "title": "IP可用性检测工具",
+    "logo": "assets/images/favicon.png",
+    "url": "https://www.toolsdaquan.com/ipcheck/",
+    "description": "检测IP在中国大陆以及海外区域的可用性，端口可以指定为SSH端口，或者任意服务的监听端口。"
+}
+
+材质贴图 = {
+    "title": "材质贴图",
+    "logo": "assets/images/favicon.png",
+    "url": "https://www.textures.com/library",
+    "description": "材质贴图库"
+}
+blender = {
+    "title": "blender",
+    "logo": "assets/images/logos/blender.png",
+    "url": "https://www.blender.org",
+    "description": "一款开源的的 3d 软件。"
+}
+
+世界创意包装 = {
+    "title": "世界创意包装",
+    "logo": "assets/images/favicon.png",
+    "url": "https://packagingoftheworld.com",
+    "description": "世界创意包装集合"
+}
+
+普象网 = {
+    "title": "普象网",
+    "logo": "assets/images/favicon.png",
+    "url": "https://www.puxiang.com",
+    "description": "世界创意包装集合"
+}
+二维码演示 = {
+    "title": "二维码演示",
+    "qrcode": "assets/images/webstack-hugo-qrcode.png",
+    "logo": "assets/images/favicon.png",
+    "description": "二维码演示，新增二维码，手机扫一扫"
+}

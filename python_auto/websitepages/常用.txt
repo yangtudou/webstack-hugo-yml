@@ -1,9 +1,0 @@
-土豆仓库              assets/images/favicon.png               https://www.dsmyyy.tk:8887           包含一些常用软件之类的。
-土豆博客              assets/images/favicon.png              https://www.dsmyyy.tk:8443            目前部署在家里的黑群上。
-docker hub          assets/images/favicon.png                 https://hub.docker.com              docker 镜像站
-Github              assets/images/favicon.png                  https://github.com/                全球最大的同性交友网站。
-Medium              assets/images/logos/medium.png        https://medium.com/                          高质量设计文章
-B站                 assets/images/logos/bilibili.png                https://www.bilibili.com/          B站，一个学习网站。
-Pinterest           assets/images/logos/pinterest.png               https://www.pinterest.com/         全球美图收藏采集站
-Behance             assets/images/logos/behance.png                 https://behance.net/               Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-Youtube             assets/images/logos/youtube.png               https://www.youtube.com/          全球最大的学习分享平台
