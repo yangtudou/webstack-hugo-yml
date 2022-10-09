@@ -6,11 +6,7 @@
         logo: assets/images/favicon.png
         url: https://www.dsmyyy.tk:8887
         description: 包含一些常用的软件什么的。
-      - title: Github
-        logo: assets/images/favicon.png
-        url: https://github.com
-        description: 全球最大的同性交友网站。
-      - title: docker hub
+      - title: DockerHub
         logo: assets/images/favicon.png
         url: https://hub.docker.com
         description: docker 镜像站
@@ -41,10 +37,6 @@
         logo: assets/images/favicon.png
         url: https://wp.gxnas.com
         description: NAS 和虚拟机相关
-      - title: P3TERX ZONE
-        logo: assets/images/favicon.png
-        url: https://p3terx.com
-        description: 挺好一博客
       - title: reuixiy
         logo: assets/images/favicon.png
         url: https://io-oi.me
@@ -68,39 +60,3 @@
         logo: assets/images/favicon.png
         url: https://uup.rg-adguard.net
         description: Windows 镜像
-  - taxonomy: 实用工具
-    icon: fa-cog
-    links:
-      - title: IP可用性检测工具
-        logo: assets/images/favicon.png
-        url: https://www.toolsdaquan.com/ipcheck/
-        description: 检测IP在中国大陆以及海外区域的可用性，端口可以指定为SSH端口，或者任意服务的监听端口。
-  - taxonomy: 设计
-    icon: fa-folder
-    list:
-      - term: 3D 设计
-        links:
-          - title: blender
-            logo: assets/images/logos/blender.png
-            url: https://www.blender.org
-            description: 一款开源的的 3d 软件。
-          - title: 材质贴图
-            logo: assets/images/favicon.png
-            url: https://www.textures.com/library
-            description: 材质贴图库
-      - term: 包装设计
-        links:
-          - title: 世界创意包装
-            logo: assets/images/favicon.png
-            url: https://packagingoftheworld.com
-            description: 世界创意包装集合
-      - term: 工业设计
-        links:
-          - title: 普象网
-            logo: assets/images/favicon.png
-            url: https://www.puxiang.com
-            description: 世界创意包装集合
-          - title: 二维码演示
-            qrcode: assets/images/webstack-hugo-qrcode.png
-            logo: assets/images/favicon.png
-            description: 二维码演示，新增二维码，手机扫一扫
